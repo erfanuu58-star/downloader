@@ -37,7 +37,7 @@
 
 به گیت‌هاب بروید:  
 `Settings > Developer settings > Personal access tokens > Tokens (classic) > Generate new token (classic)`  
-تیک گزینه `repo` را بزنید (کل دسترسی‌های repo را فعال کنید) و سپس توکن را بسازید و کپی کنید.
+تیک گزینه‌های `repo` و `workflow` را بزنید (کل دسترسی‌های repo و workflow را فعال کنید) و سپس توکن را بسازید و کپی کنید.
 
 ## نحوه استفاده
 
