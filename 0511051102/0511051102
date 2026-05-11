@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jenny-Mod-Skins.zip - Download</title>
+<meta name="description" content="Download Jenny-Mod-Skins.zip - Fast, free file download.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://files2.cdn9mc.com/index.php?act=dl&amp;id=1753591459">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#2d7d32">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jenny-Mod-Skins.zip - Download">
+<meta property="og:description" content="Download Jenny-Mod-Skins.zip fast and free.">
+<meta property="og:url" content="https://files2.cdn9mc.com/index.php?act=dl&amp;id=1753591459">
+<meta property="og:image" content="/9minecraft.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jenny-Mod-Skins.zip - Download">
+<meta name="twitter:description" content="Download Jenny-Mod-Skins.zip fast and free.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Jenny-Mod-Skins.zip",
+  "url": "https://files2.cdn9mc.com/index.php?act=dl&amp;id=1753591459",
+  "downloadUrl": "https://files2.cdn9mc.com/index.php?act=download&amp;id=1753591459&amp;hash=6a0133ecec72c",
+  "fileSize": "1.38 GB"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+</head>
+<body>
+<center>
+    <div class='top-section'>
+        <div id="main-content">
+            <div id="clickBox" class="btdownload">
+                <a id="download-button" href="https://files2.cdn9mc.com/index.php?act=download&id=1753591459&hash=6a0133ecec72c">DOWNLOAD</a>
+            </div>
+
+            <script>
+            let clickCount = 0;
+            const downloadArea = document.querySelector('.btdownload');
+            const downloadButton = document.getElementById('download-button');
+
+            // Preload: chờ aclib sẵn sàng ngay khi trang load
+            let aclibReady = false;
+            const checkAclib = setInterval(() => {
+                if (typeof aclib !== 'undefined') {
+                    aclibReady = true;
+                    clearInterval(checkAclib);
+                }
+            }, 100);
+
+            const setCookie = (key, value, seconds) => {
+                const date = new Date();
+                date.setTime(date.getTime() + seconds * 1000);
+                document.cookie = `${key}=${value}; expires=${date.toUTCString()}; path=/`;
+            };
+
+            const getCookie = (key) => {
+                const name = `${key}=`;
+                const decodedCookie = decodeURIComponent(document.cookie);
+                const cookies = decodedCookie.split(';');
+                for (let cookie of cookies) {
+                    cookie = cookie.trim();
+                    if (cookie.indexOf(name) === 0) {
+                        return cookie.substring(name.length, cookie.length);
+                    }
+                }
+                return "";
+            };
+
+            downloadArea.addEventListener('click', (e) => {
+                e.preventDefault();
+                clickCount++;
+
+                if (clickCount === 1) {
+                    if (aclibReady) {
+                        aclib.runPop({ zoneId: '11091058' });
+                    } else {
+                        // aclib chưa ready, đợi rồi bắn
+                        const waitAndRun = setInterval(() => {
+                            if (typeof aclib !== 'undefined') {
+                                aclib.runPop({ zoneId: '11091058' });
+                                clearInterval(waitAndRun);
+                            }
+                        }, 50);
+                    }
+                } else if (clickCount >= 2) {
+                    const hasRedirected = getCookie('ofAdPage');
+                    const fileUrl = downloadButton.href;
+                    window.location.href = fileUrl;
+                    
+                    if (!hasRedirected) {
+                        setCookie('ofAdPage', 'visited', 1800);
+                        
+                        setTimeout(() => {
+                            const poolid = 35118;
+                            const subpoolid = 0;
+                            const rnd = Math.round(Math.random() * 999999);
+                            const adUrl = "https://server.cpmstar.com/view.aspx?poolid=" + poolid + "&subpoolid=" + subpoolid + "&rnd=" + rnd;
+                            console.log(adUrl);
+                            document.location = adUrl;
+                        }, 2000);
+                    }
+                }
+            });
+            </script>
+
+            <span class="file_name">
+                <span class="file_text">File name: </span><span class="file_link"><strong>Jenny-Mod-Skins.zip</strong></span>
+                <span class="file_space">-</span>
+                <span class="file_size">File Size: </span><span class="file_link"><strong>1.38 GB</strong></span>
+            </span>
+            <br>
+			<div class="supportbox-container">
+
+<a href="https://ezseed.net/" target="_blank" rel="noopener noreferrer"
+   style="display:inline-block; padding:12px 28px; margin:6px 0 4px; background:linear-gradient(135deg,#B45309 0%,#F59E0B 100%); color:#fff !important; font-weight:700; font-size:16px; text-decoration:none !important; border-radius:8px; box-shadow:0 4px 14px rgba(245,158,11,0.45); letter-spacing:0.5px; text-transform:uppercase;">
+  🌍 Try EzSeed.net — FREE Now
+</a>
+
+<p class="supportbox-note" style="margin-top:10px; font-size:13px; line-height:1.5;">
+  🗺️ Another brand-new project from <strong style="color:#B45309; font-weight:700;">9Minecraft</strong> — <strong>EzSeed.net</strong>: Rare Seed Finder, Spawner Cluster Finder, Find Nearest, <strong>Java + Bedrock</strong>. <strong>100% free, forever.</strong>
+</p>
+
+</div>
+
+        </div>
+        <div class="first-ads">
+            <div class="web-ads">
+                <div class="ads-300">
+                    <script data-cfasync="false" async type="text/javascript" src="//dr.cocashstealer.com/tXRTPQYYpd5ZMSIc/115085"></script>                </div>
+            </div>
+            <div class="mobile-ads">
+                <div class="ads-300">
+                    <script data-cfasync="false" async type="text/javascript" src="//dr.cocashstealer.com/tXRTPQYYpd5ZMSIc/115085"></script>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-ads">
+        <div class="web-ads">
+            <iframe srcdoc='
+    <script type="text/javascript">
+        atOptions = {
+            "key" : "30d02cd80a5f0482ae8df9cffe081689",
+            "format" : "iframe",
+            "height" : 90,
+            "width" : 728,
+            "params" : {}
+        };
+    </script>
+    <script type="text/javascript" src="//creasereturndisplayed.com/30d02cd80a5f0482ae8df9cffe081689/invoke.js"></script>
+' width="728" height="90" frameborder="0" scrolling="no"></iframe>
+
+<br><br>
+
+<iframe srcdoc='
+    <script async="async" data-cfasync="false" src="//creasereturndisplayed.com/8497db9deea73b9381c52fa8c35a13b5/invoke.js"></script>
+    <div id="container-8497db9deea73b9381c52fa8c35a13b5"></div>
+' width="1024" height="250" frameborder="0" scrolling="no"></iframe>        </div>
+        <div class="mobile-ads">
+            <iframe srcdoc='
+    <script async="async" data-cfasync="false" src="//creasereturndisplayed.com/8497db9deea73b9381c52fa8c35a13b5/invoke.js"></script>
+    <div id="container-8497db9deea73b9381c52fa8c35a13b5"></div>
+' width="300" height="1500" frameborder="0" scrolling="no"></iframe>        </div>
+    </div>
+    <div class="footer">
+        Copyright © Minecraft Files Storage. All rights reserved.
+    </div>
+</center>
+</body>
+</html>
